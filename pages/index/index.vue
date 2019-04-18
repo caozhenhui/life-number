@@ -4,7 +4,7 @@
 			<cover-image class="img" src="../../static/img/home_img.png"></cover-image>
 		</view>
 		<view class="title">生命数字密码</view>
-		<view class="message">
+		<view class="message-input">
 			<view class="uni-list-cell">
 				选择您的生日（阳历）:
 			    <view class="uni-list-cell-db">
@@ -18,6 +18,12 @@
 			<view class="life">
 				LIFE
 			</view>
+			生命的意义在于寻找意义的过程
+			<br/>
+			我们需要了解的不是“人为什么活着”
+			<br/>
+			而应该是“我为什么活着”
+			<br/>
 			生命数字密码
 			<br/>
 			总有一个数字掌握着你的命运
@@ -36,7 +42,7 @@
 				{{info.content}}
 			</view>
 			<view class="profession">
-				适合发展方向： <span v-for="item in info.profession" :key="item">{{item}}</span>
+				适合职业： <span v-for="item in info.profession" :key="item">{{item}}</span>
 			</view>
 			<view class="advantage">
 				{{info.advantage}}
@@ -80,10 +86,11 @@
 					num += Number(dateArr[i])
 				}
 				this.lifeNumber = this.recursion ('' + num)
-				this.$http.get('/static/json/' + this.lifeNumber + '.json').then( res => {
-					this.info = res.data
-					console.log(res)
-				})
+// 				this.$http.get('/static/json/' + this.lifeNumber + '.json').then( res => {
+// 					this.info = res.data
+// 					console.log(res)
+// 				})
+				this.info = require('../../static/data/' + this.lifeNumber + '.js').default
 			},
 			recursion (num) { //递归直到加到个位数
 				if (num.length === 1) {
@@ -104,10 +111,10 @@
 	.content{
 		background: #000;
 		padding-bottom: 40upx;
-		height: 100vh;
-		overflow: auto;
+		min-height: 100vh;
 		.img-box{
-			margin: 30upx auto;
+			margin: 0 auto;
+			padding-top: 30upx; 
 			width: 546upx;
 			height: 500upx;
 			.img {
@@ -123,12 +130,12 @@
 			letter-spacing:8px;
 			text-align: center;
 		}
-		.message {
+		.message-input {
 			width: 600upx;
 			height: 80upx;
 			line-height: 80upx;
 			text-align: center;
-			margin: 16upx auto;
+			margin: 60upx auto;
 			border-radius: 40upx;
 			background: #fff;
 			.uni-list-cell {
@@ -143,7 +150,7 @@
 			line-height: 60upx;
 		}
 		.life {
-			padding: 40upx 0;
+			padding-bottom: 40upx;
 			text-align: center;
 			color: #fff;
 			font-size: 60upx;
@@ -162,6 +169,11 @@
 					margin-right: 20upx;
 				}
 			}
+		}
+		.aphorism{
+			text-indent: 2em;
+			color: #fff;
+			margin: 60upx 0;
 		}
 	}
 </style>

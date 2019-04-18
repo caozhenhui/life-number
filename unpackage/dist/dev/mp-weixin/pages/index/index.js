@@ -58,6 +58,12 @@
 //
 //
 //
+//
+//
+//
+//
+//
+//
 var _default =
 {
   name: 'Index',
@@ -82,7 +88,7 @@ var _default =
       //计算生成命数
       this.countNumber(this.date);
     },
-    countNumber: function countNumber(date) {var _this = this;
+    countNumber: function countNumber(date) {
       var dateStr = date.replace(/-/g, '');
       var dateArr = dateStr.split('');
       var num = 0;
@@ -90,10 +96,11 @@ var _default =
         num += Number(dateArr[i]);
       }
       this.lifeNumber = this.recursion('' + num);
-      this.$http.get('/static/json/' + this.lifeNumber + '.json').then(function (res) {
-        _this.info = res.data;
-        console.log(res);
-      });
+      // 				this.$http.get('/static/json/' + this.lifeNumber + '.json').then( res => {
+      // 					this.info = res.data
+      // 					console.log(res)
+      // 				})
+      this.info = __webpack_require__("C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data sync recursive ^\\.\\/.*\\.js$")("./" + this.lifeNumber + ".js").default;
     },
     recursion: function recursion(num) {//递归直到加到个位数
       if (num.length === 1) {

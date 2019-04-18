@@ -7971,6 +7971,192 @@ createPage(_index.default);
 
 /***/ }),
 
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data sync recursive ^\\.\\/.*\\.js$":
+/*!*******************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data sync ^\.\/.*\.js$ ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./1.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\1.js",
+	"./2.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\2.js",
+	"./3.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\3.js",
+	"./4.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\4.js",
+	"./5.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\5.js",
+	"./6.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\6.js",
+	"./7.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\7.js",
+	"./8.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\8.js",
+	"./9.js": "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\9.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data sync recursive ^\\.\\/.*\\.js$";
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\1.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/1.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "1是数字之首，也是数字法则的基础。作为初始数字，1衍生了后面的数字，其它数字都是因它而生。数字为1的人，是个天生的领导者，他所拥有的自信，会帮助他在任何领域走向成功，他们常能以非常明确或黑白分明的方式分析情势，因此很容易做出决定。由于数字1的能量，生命数字1的人很容易成为某些领域的开拓者和创造者。需要注意的是生命数字1的人建议多学习虚怀若谷，收敛一些，多与别人交流合作，不要总是期望别人都来迎合你。",
+  adverse: "专制，独断，浮躁，懒散，说教，偏执，自私，冲动，傲慢自大，咄咄逼人，吹牛，冷酷，苛求，虚荣，居高临下，强硬，攀比，嫉妒。",
+  advantage: "正面优势：自主，独立，领导力，执行，力量，号召力，创造性，果断，勇敢，乐观，创意，原创性，可信任，独特，进取。",
+  profession: ["企业家", "军官", "外交官"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\2.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/2.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "数字2是个阴性数字。数字2的代表人物是夏娃。传说上帝创造了亚当之后，又从他身上取下一根肋骨创造了一个女人，夏娃。2是由数字1进化而来，是播种之后的孕育期，代表女性特质（偶数），阴柔依赖。因为数字2的女性特征，生命数字2的人在文学方面有天赋，文笔优美流畅，在艺术品评鉴和研究、配色造型的设计方面也有天分。虽然夏娃是来自亚当的一部分，但是夏娃又是一个独立的个体。因此，数字2又具有一种矛盾性，就像太极的阴阳，互补又对立。生命数字2的天赋是能同时看到事情的正反两面，因此他/她们善于分析而且会同时具有双重性格，2的人另一项才能是能直观事情的根基。 2号人的缺点是依赖性较强，缺乏耐性、浮躁，情绪易变，生命数字2 的人学习的课题是要学会独立",
+  adverse: "负面挑战：情绪化，优柔寡断，喜怒无常，过分依赖，依附他人，左右不定，无主见，过度敏感，软弱，善于讨好谄媚，顽固，抱怨，愚昧，沮丧，利用他人，缺乏独立性。",
+  advantage: "正面优势：敏感，体贴，温和，团结，和谐，依赖，艺术感，耐心，宽容，善于分析，直觉力，富有美感，配合协调，可靠，安静，平和，善解人意，优雅。",
+  profession: ["销售", "广告从业人士"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\3.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/3.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "数字3在形态上是个多方位的“可爱数”，把3侧翻过去就是英文字母E，躺下又像是W，这是阿拉伯数字里最有趣的一个数。3代表关系，黑与白无法直接关联，阴和阳必须同时存在，关系的建立是第三种力量。1是父亲，2是母亲，3 就是他们的孩子。在基督教中，3是圣父、圣子和圣灵的综合体，即男性驱动力+儿童状态+灵性结合三位一体的数。这是一个乐观机敏的数字，具有旺盛的好奇心，乐观善于表达，具备孩子一般的纯真与多变性。",
+  adverse: "负面挑战：夸张，做作，缺乏方向，自我怀疑，搬弄是非，幼稚，逃避现实，付钱，虚荣，喋喋不休，撒谎，铺张浪费恐惧：被限制，无聊，面对现实，不被关注。",
+  advantage: "正面优势：聪明，热情。想象丰富，有创意，幽默感，充满活力，善于表达，时尚，擅社交，多才多艺，有趣，乐观，有激情，受欢迎。",
+  profession: ["艺术家", "演员", "程序员"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\4.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/4.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "4号人组织能力很强，擅长构思，对数字也很在行，因此与数学有关的行业如会计、科学、工程，以及有关安全和稳定的行业都很适合。4号人还适合从事主管或技术性的工作，也适合做协助他人解决问题的咨询工作。由于天生缺乏安全感，4号人不喜欢冒险，喜欢安逸的生活，比较务实，但往往很顽固，不喜欢变动。有的时候4号人的不安全感会发展为某种程度的强迫症。生命数字为4的人要学习的人生课题是：寻找真正的安全感。真正的安全感其实是来自内心，不是外在的物质世界。",
+  adverse: "负面挑战：情绪紧张，心胸狭窄，过分固执，过于谨慎，拒绝改变，自我保护，挑剔，嫉妒心，吝啬，缺乏想象力，难以变通，无趣乏味。",
+  advantage: "正面优势：帮助他人，未雨绸缪，务实，秩序，自律，组织力，可靠，实干，诚恳，有勇气，任劳任怨，稳重，做事认真，坚定，忠实，逻辑分明。",
+  profession: ["实业家", "研究院"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\5.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/5.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "5号人喜欢无拘无束，自由自在的生活。 他们天生喜欢冒险和自由，喜欢尝试各种新事物，爱好旅游，常常会沉溺于自由自在的生活享受中。他们有演说和促销的天分，有自己的主见，能言善辩，社交能力强，比较适合从事销售、促销、广告、传媒、演艺、政治、运输、营养有关的工作，当然，作厨师、美食评论家也不错。 5号人对朋友很讲义气，给朋友的感觉就是对人热情、豪爽，力所能及的事情都会鼎力相助、毫不计较。由于5号人的人过于坦率直接，有时常常会想到了什么就说什么，一不小心就会中伤他人，但是他们内心其实都是很善良，对交心的朋友相当信任，对家人爱护有加。就像人有五种感官来享受生活，体验人生，5号人似乎会有受感官控制，极端沉溺于饮食的欲望和其他的享乐之中的趋势。他们害怕承诺和抉择。5号人要明白的是，抉择是学习自由的真义和追求美满人生的唯一窍门， 而承诺也并不代表失去自由，而是感受自由真谛的方式。",
+  adverse: "负面挑战：过度放纵，博而不精，缺乏耐心，毫无责任，索求无度，烦躁不安，爱拖延，惰性，华而不实，顽固，爱嘲讽，精力不集中，狡猾，浪费，不可靠。",
+  advantage: "正面优势：聪慧，自由，学习能力强，多元化，敢于冒险，博学多才，反传统，坚持自我，充满活力，智慧，探索心，视野宽，幽默感。",
+  profession: ["贸易工作", "自由职业者"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\6.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/6.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "数字6在形态上很像一个怀孕的妇女，挺着大肚子极具母爱。6也代表孕育，有母性的包容力。六芒星被犹太人理解为“神”(上帝)和女性完全结合的神圣标志。而6在数字含义中同样有阴柔的特征，象征培养、关怀、和谐、奉献，意味着需要稳定和扎实的家庭基础。6针对的意义还有重视亲情，对爱的需求更为强烈。同时这个数字也代表治疗和艺术理解力。",
+  adverse: "负面挑战：负焦虑，挑剔，苛刻，自怜，保守封闭，得失心重，盲目付出，施加压力，自私，多管闲事，沉闷，嘴碎，自以为是。",
+  advantage: "正面优势：可信，忠实，爱和平，有同情心，可以承担，助人，亲和体贴，治疗他人，公正，奉献精神，荣誉感强，有担当，负责，直觉力，美的鉴赏。",
+  profession: ["医务工作者", "心理咨询师", "社会公益组织人员"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\7.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/7.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "数字7是个相当特殊的神奇数字，仅从7的形态就能想 象出无数的奥妙都与它相关。7就像一个大问号，也更像一个魔杖——代表质疑和神秘。一个星期有七天，北斗有七星，彩虹有赤橙黄绿青靛紫七个颜色，音阶由七个音符组成，人体有7个脉轮，佛 家有7根智慧柱......与数字7相关的定律举不胜举。耶稣的生日是25号(7)，所以7在西方被称作上帝之数。数字符号学中的7与色彩符号学中的紫色极为相似，它们的共性是神秘，皆被宗教青睐。数字7象征着人的内在需要寻找深度意义和精神联系，是善于挖掘事物真相之数。数字7同时也代表着人与神之间的神秘联系，全世界都将7看作幸运数字。",
+  adverse: "负面挑战：自负，疑心重，孤僻，偏激，冷漠，过刚，与人保持距离，奸诈，挑剔，重视阴暗面，缺乏同情心，刚愎自用。",
+  advantage: "正面优势：精密分析力，神秘，博学，安静，有深度，求知欲强， 寻找真理，内省，自学成才，智慧，直觉力，内省，艺术气质，哲学意味，幸运。",
+  profession: ["咨询类", "咨询类", "公关", "策划"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\8.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/8.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "在数字形态上，8是唯一没有“出口”的数字，看起来就十分有弹性，就像一条四通八达的道路，伸展开来是畅通无阻的光明大道，拧巴起来又成了复杂的十字路。8的外形也是数学中的无限符号，代表着无数的可能性。数字8在我国民间是象征财富的符号，谐音同发财的“发”。在数字中8有同样的意义，与财富权力有所关联。8象征着统治、控制和成就，它是行政决策数。数字8另有个奇特的效应，就是因果关系，表示种下什么样的因，得到什么样的果。",
+  adverse: "负面挑战：爱操纵，易怒，急于成功，好权力，虚荣，世俗，势利 眼，投机取巧，滥用职权，唯利是图，攀比，赌性，天灾。",
+  advantage: "正面优势：领导力，果断，勇敢，专注，有魄力，能屈能伸，智谋出色，商业头脑，成功，洞察力，有雄心，创造财富， 援助他人。",
+  profession: ["外科医生", "文案", "程序员"] };exports.default = _default;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\static\\data\\9.js":
+/*!******************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/my-uni-app/static/data/9.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  content: "数字9的形态非常有趣，像是一个头重脚轻的人，微微低着头沉思。这非常形象，因为数字9的特征之一就是发达的想象力。9这个数字很特别，9加任何数字都会还原。例如，9乘以任何数还是9;3+9=12,1+2还是等于3;3x9=27，2+7还是等于9。9代表着结束、最高以及生命的轮回，将数字1〜8依次加在一起，1+2+3+4+5+6+7+8=36，而3+6的答案还是9。这是唯一用神秘方式工作的数字，从1〜9涵盖了“9”种原型的人格领域，结合在一起之后会有无尽的变化。就像三种基本原色却可组成宇宙间许许多多的颜色一样，由这“9”种原型人格亦能造就出各种独具特性的唯一人格。6与9同属爱的数字，不同的是，6的圆满在下，是家庭与社区范围，是小爱之数，而9的圆满在上，象征着一种普遍的哲学意识。它具备最高的精神层次，与大爱、心灵提升、宗教信仰都有很大的联系。",
+  adverse: "负面挑战：惰性，妄想，不拒绝，消极，不利己，迷信，爱心泛滥，拯救欲过强，情绪沮丧，情感软弱，自我贬低，不现实。",
+  advantage: "正面优势：智慧，博爱，高尚，付出爱心，热心公益，慈悲，利人，灵性，懂得爱，激励别人，正义感，想象力丰富， 慵慨，人道主义，浪漫，诚恳。",
+  profession: ["教师", "咨询", "仲裁", "服务业"] };exports.default = _default;
+
+/***/ }),
+
 /***/ "C:\\Users\\Administrator\\Desktop\\my-uni-app\\store\\index.js":
 /*!****************************************************************!*\
   !*** C:/Users/Administrator/Desktop/my-uni-app/store/index.js ***!
